@@ -7,7 +7,7 @@ export default function Home() {
       <button>Click Me</button>
       <button>Click Me</button>
 
-      <style jsx>{`
+      <style jsx global>{`
         .js-focus-visible :focus:not(.focus-visible) {
           outline: none;
         }
